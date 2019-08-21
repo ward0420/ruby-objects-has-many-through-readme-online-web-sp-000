@@ -14,6 +14,7 @@ class Waiter
   def self.all
     @@all
   end
+<<<<<<< HEAD
   
     def new_meal(customer, total, tip=0)
     Meal.new(self, customer, total, tip)
@@ -33,4 +34,6 @@ def best_tipper
  
   best_tipped_meal.customer
 end
+=======
+>>>>>>> a0fec77b515e75eb1ee8208734e9c01a1eab85ce
 end
